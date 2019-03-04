@@ -1,0 +1,59 @@
+body {
+    background-image: url('quizGameBackground.jpg');
+}
+
+#mainContainer {
+    background-color: yellow;
+    margin: 0 auto;
+    margin-top: 12px;
+    height: 700px;
+    width: 900px;
+    border: solid;
+    
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: solid;
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 60px;
+    font-weight: thick;
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
+
+#timer {
+    border: dotted;
+    height: 80px;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: thick;
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
+
+#question {
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: thick;
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
+
+#answers {
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: thick;
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
