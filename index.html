@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trivia Game</title>
+    <link re="stylesheet" type="text/css" href="assets/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="assets/app.js"></script>
 
 </head>
 <body>
@@ -13,16 +19,31 @@
             <header>
                 Meet Your Fate at My Trivia Game!
             </header>
+
             <section id="timer">
                 <p>Countdown Clock</p> 
                 <p>(tick-tock!!): <span id="countDown" style="font-size: 40px">30</span></p>
             </section>
-            <section id="question">
-                Test
-            </section>
-            <section id="answers">
-                Test
-            </section>
+
+            <button type="button" id="button">BEGIN</button>
+            <div id="wrapper">
+            </div>
         </section>
 </body>
 </html>
+
+
+<!-- <div id="wrapper">
+        <section id="question">
+            Question incoming...
+        </section>
+        <section id="answers">
+            <form>
+                <input type="radio" id="answerDirections"></input>
+                <input type="radio" id="answerOne"></input>
+                <input type="radio" id="answerTwo"></input>
+                <input type="radio" id="answerThree"></input>
+                <input type="radio" id="answerFour"></input>
+            </form>
+        </section>
+    </div> -->

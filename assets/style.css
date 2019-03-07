@@ -1,5 +1,5 @@
 body {
-    background-image: url('quizGameBackground.jpg');
+    background-image: url('images/quizGameBackground.jpg');
 }
 
 #mainContainer {
@@ -38,8 +38,22 @@ header {
     font-variant: small-caps;
 }
 
+button {
+    height: 50px;
+    width: 80px;
+    background-color: darkslategray;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: thick;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    align-content: center;
+    margin: 0 400px;
+    /* round the corners */
+}
+
 #question {
-    height: 200px;
+    height: 150px;
     width: 400px;
     margin: 0 auto;
     font-size: 30px;
@@ -57,3 +71,8 @@ header {
     font-family: sans-serif;
     font-variant: small-caps;
 }
+
+/* form {
+    position: relative;
+    float: left;
+} */
